@@ -1,0 +1,95 @@
+.ats-container {
+  width: 40%;
+  min-height: 820px;
+  padding: 28px;
+
+  background: #0b1220;
+  border-right: 1px solid #1e293b;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: #e5e7eb;
+}
+
+.ats-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.ats-subtitle {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+/* Section */
+.ats-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ats-section label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #cbd5f5;
+}
+
+/* Inputs */
+.ats-section input,
+.ats-section textarea {
+  padding: 12px 14px;
+  border-radius: 10px;
+
+  background: #020617;
+  border: 1px solid #1e293b;
+
+  color: #e5e7eb;
+  font-size: 14px;
+
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ats-section textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.ats-section input:focus,
+.ats-section textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+/* Hint text */
+.hint {
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Button */
+.ats-btn {
+  margin-top: auto;
+  padding: 14px;
+
+  border-radius: 12px;
+  border: none;
+
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ats-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 25px rgba(99, 102, 241, 0.45);
+}
